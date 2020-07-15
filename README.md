@@ -48,14 +48,14 @@ If you want to use Value types with null, there are two ways for doing that:
 - You can convert from T into Nullable\<T> without futher problems, because you can't loose any dataa from the concersion:
 
 ```csharp
-int i = 42;
+int i = 43;
 int? j = i;
 ```
 
 - But if you try:
 
 ```csharp
-int? i = 42;
+int? i = 43;
 int j = i; //Error, because you can loose data
 
 //you need to cast explicit:
