@@ -1,0 +1,13 @@
+C:\Users\ju\Documents\C#\WorkingWithNulls\bin\Debug\netcoreapp3.1\WorkingWithNulls.exe
+C:\Users\ju\Documents\C#\WorkingWithNulls\bin\Debug\netcoreapp3.1\WorkingWithNulls.deps.json
+C:\Users\ju\Documents\C#\WorkingWithNulls\bin\Debug\netcoreapp3.1\WorkingWithNulls.runtimeconfig.json
+C:\Users\ju\Documents\C#\WorkingWithNulls\bin\Debug\netcoreapp3.1\WorkingWithNulls.runtimeconfig.dev.json
+C:\Users\ju\Documents\C#\WorkingWithNulls\bin\Debug\netcoreapp3.1\WorkingWithNulls.dll
+C:\Users\ju\Documents\C#\WorkingWithNulls\bin\Debug\netcoreapp3.1\WorkingWithNulls.pdb
+C:\Users\ju\Documents\C#\WorkingWithNulls\obj\Debug\netcoreapp3.1\WorkingWithNulls.csprojAssemblyReference.cache
+C:\Users\ju\Documents\C#\WorkingWithNulls\obj\Debug\netcoreapp3.1\WorkingWithNulls.AssemblyInfoInputs.cache
+C:\Users\ju\Documents\C#\WorkingWithNulls\obj\Debug\netcoreapp3.1\WorkingWithNulls.AssemblyInfo.cs
+C:\Users\ju\Documents\C#\WorkingWithNulls\obj\Debug\netcoreapp3.1\WorkingWithNulls.csproj.CoreCompileInputs.cache
+C:\Users\ju\Documents\C#\WorkingWithNulls\obj\Debug\netcoreapp3.1\WorkingWithNulls.dll
+C:\Users\ju\Documents\C#\WorkingWithNulls\obj\Debug\netcoreapp3.1\WorkingWithNulls.pdb
+C:\Users\ju\Documents\C#\WorkingWithNulls\obj\Debug\netcoreapp3.1\WorkingWithNulls.genruntimeconfig.cache
