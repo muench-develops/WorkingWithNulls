@@ -12,7 +12,7 @@ Reference Type: Points to an object\
 | C# struct                                    | C# class                            |
 | Independet copies                            | Single shared instance              |
 | Changing value does not affect other objects | Changing value affects all pointers |
-| Holding information                          | Points to information               |
+| Holds information                            | Points to information               |
 
 ---
 
