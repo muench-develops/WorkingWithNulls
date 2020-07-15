@@ -9,19 +9,46 @@ namespace WorkingWithNulls
         {
             System.Console.WriteLine($"The name of the player is: {character.Name}");
 
-            if (character.DaysSinceLastLogin == -1)
+
+            //Magic Number approach
+            if (character.DaysSinceLastLoginWithoutNull == -1)
             {
-                System.Console.WriteLine("No value for DaysSinceLastLogin");
+                System.Console.WriteLine("No value for DaysSinceLastLoginWithoutNull");
             }
             else
             {
-                System.Console.WriteLine($"Last login: {character.DaysSinceLastLogin} days ago");
+                System.Console.WriteLine($"Last login: {character.DaysSinceLastLoginWithoutNull} days ago");
             }
 
-            if (character.DateOfBirth == DateTimeOffset.MinValue)
+            if (character.DateOfBirthWithoutNull == DateTimeOffset.MinValue)
             {
-                System.Console.WriteLine("No value for DateOfBirth");
+                System.Console.WriteLine("No value for DateOfBirthWithoutNull");
             }
+            else
+            {
+                System.Console.WriteLine($"Bday: {character.DateOfBirthWithoutNull}");
+            }
+
+            //Nullable approach
+            if (character.DaysSinceLastLoginWithNull == null)
+            {
+                System.Console.WriteLine("No value for DaysSinceLastLoginWithNull");
+            }
+            else
+            {
+                System.Console.WriteLine($"Bday: {character.DateOfBirthWithNull}");
+            }
+            if (character.DateOfBirthWithNull == null)
+            {
+                System.Console.WriteLine("No value for DateOfBirthWithNll");
+            }
+            else
+            {
+                System.Console.WriteLine($"Bday: {character.DateOfBirthWithNull}");
+            }
+
+
+
         }
 
 

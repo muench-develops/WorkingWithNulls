@@ -16,7 +16,7 @@ namespace WorkingWithNulls
 
             var player2 = new PlayerCharacter();
             player2.Name = "Sarah";
-            player2.DaysSinceLastLogin = 2;
+            player2.DaysSinceLastLoginWithoutNull = 2;
             PlayerDisplayer.displayPlayerStats(player2);
             Console.ReadLine();
 
