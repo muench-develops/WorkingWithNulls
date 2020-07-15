@@ -15,8 +15,10 @@ namespace WorkingWithNulls
         {
             DaysSinceLastLoginWithoutNull = -1; //magic number
             DateOfBirthWithoutNull = DateTimeOffset.MinValue; //magic number
-            DaysSinceLastLoginWithNull = null; // nullable
-            DateOfBirthWithNull = null;
+
+            // Default value will be null
+            // DaysSinceLastLoginWithNull = null; // nullable
+            // DateOfBirthWithNull = null;
         }
     }
 
