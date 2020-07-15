@@ -30,21 +30,21 @@ namespace WorkingWithNulls
             }
 
             //Nullable approach
-            if (character.DaysSinceLastLoginWithNull == null)
+            if (character.DaysSinceLastLoginWithNull.HasValue)
+            {
+                System.Console.WriteLine($"Bday: {character.DateOfBirthWithNull}");
+            }
+            else
             {
                 System.Console.WriteLine("No value for DaysSinceLastLoginWithNull");
             }
-            else
+            if (character.DateOfBirthWithNull.HasValue)
             {
                 System.Console.WriteLine($"Bday: {character.DateOfBirthWithNull}");
             }
-            if (character.DateOfBirthWithNull == null)
+            else
             {
                 System.Console.WriteLine("No value for DateOfBirthWithNll");
-            }
-            else
-            {
-                System.Console.WriteLine($"Bday: {character.DateOfBirthWithNull}");
             }
 
 
