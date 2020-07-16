@@ -13,6 +13,7 @@ namespace WorkingWithNulls
 
         public PlayerCharacter()
         {
+
             DaysSinceLastLoginWithoutNull = -1; //magic number
             DateOfBirthWithoutNull = DateTimeOffset.MinValue; //magic number
 
